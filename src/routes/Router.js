@@ -19,7 +19,7 @@ function Router() {
           </div>
         }
       />
-      <Route path="/" element={<Navigate to="/home" />} />
+      <Route path="/" element={<Navigate to="/login" />} />
       <Route
         path="/home"
         element={
